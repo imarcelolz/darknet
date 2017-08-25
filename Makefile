@@ -1,6 +1,6 @@
 GPU=0
 CUDNN=0
-OPENCV=0
+OPENCV=1
 OPENMP=0
 DEBUG=0
 
@@ -19,7 +19,7 @@ ALIB=libdarknet.a
 EXEC=darknet
 OBJDIR=./obj/
 
-CC=gcc
+CC=clang
 NVCC=nvcc 
 AR=ar
 ARFLAGS=rcs
